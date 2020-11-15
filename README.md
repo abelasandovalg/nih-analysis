@@ -1,4 +1,3 @@
-# NCorona-Lyme
-Names: Abel Sandoval /  Christopher Perry <br>
-EIDs: aas4549 / crp2964 <br>
-Emails: abelasandovalg@gmail.com / crp2964@utexas.edu 
+# NIH Dataset Analysis 
+
+The main objective in our analysis was to find any trends in the data that could show a decrease in drug innovation due to big pharmaceutical companies taking over the markets. Google Cloud Platform was used to stage, model, and analyze the dataset with 100,000+ records through Google Beam and Airflow, in Python, and the data was vizualized through Google Data Studio. In order to strengthen our analysis, we used another dataset to perform cross-dataset queries in SQL. Our analysis showed that big pharmaceutical companies typically only create medications for diseases that already have a treatment instead of venturing out into drugs with no current treatment. 
