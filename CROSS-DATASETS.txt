@@ -1,0 +1,13 @@
+Cross-Datasets 
+
+Query One
+- In this query, we will be comparing the enrollment averages between the two datasets, one being specific to pharmaceutical companies and the other being the overall average of all clinical trials. We will be joining the beams_eye table with the enrollment table on nct_number and comparing them using the AVG aggregate function. 
+- In order to successfully implement the query, we need to get rid of all the duplicate trials in the beams_eye database. 
+
+Query Two 
+- In this query, we will be comparing the percentage of complete and terminated studies between the two datasets. We will be joining the beams_eye table with the clinical studies main table on nct_number and comparing them by using an aggregate function. 
+- In order to successfully implement the query, we need to get rid of all the duplicate trials in the beams_eye database. 
+
+Query Three 
+- In this query, we will be comparing the conditions studied within the primary database and the secondary database. We will be joining the clinical studies main table and the beams_eye table on nct_number and comparing them by using an aggregate function. 
+- In order to successfully implement the query, we need to get rid of all the duplicate trials in the beams_eye database. 

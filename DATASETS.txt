@@ -1,0 +1,213 @@
+National Institutes of Health, Clinical Trials
+
+The NIH Clinical Trials dataset contains publicly and privately supported clinical studies on a wide range of diseases and conditions. 
+
+From this dataset, we hope to analyze data in order to find any discrepancies in areas related to safety, successful trials, failed trials, successful locations, location popularity, and collaborators. The main dataset that of the collection is the Clinical Studies Main, which is what we believe will be the best dataset to compare to others. In the clinical results dataset, an interesting attribute to analyze relationships with would be the higher percentage of secondary trial types. In the collaborator dataset, we want to see if there are any specific collaborators that have more success than others and try to figure out if there are any particular reasons of interest. As for interventions, and interesting feature to look into is the type of intervention, whether it be drug, biological, behavioral, or other in order to see if there is a correlation elsewhere. Another data point of interest would be location and whether or not there are more favorable locations with better clinical outcomes than others. 
+
+Datasets: Arm Groups, Clinical Results, Clinical Studies Main, Collaborators, Contacts, Interventions, Location Countries, Locations, Other Outcomes, Primary Outcomes, References, Removed Trials Location Countries, Responsible Parties, Results Reference, Secondary Outcomes
+
+The dataset's most notable primary key is the nct_number feature, specifically in the "Clinical Studies Main" dataset, which would contain a foreign key in the rest of the datasets. 
+
+https://public.enigma.com/browse/collection/national-institutes-of-health-clinical-trials/96a48c4b-3512-4c65-9b0d-4c9a356fe33a 
+
+Arm Groups
+
+Data contains groups or subgroups of participants that received specific interventions, or no intervention at all, according to the study. Data contains 394,356 rows as well as 6 features. Features include: NCT Number, Arm Group Label, Arm Group Type, Description, Serial ID, and Enigma Serial ID
+
+https://public.enigma.com/datasets/nih-clinical-trials-arm-groups/fa1e4221-108a-4c89-9170-f2af13ac056f 
+
+NCT02620501	Placebo	Placebo Comparator	Patients will receive 10cc of 1/2 normal saline to gargle prior to EGD	1	0
+NCT02620501	Experimental	Experimental	Patients will receive 10cc of 2% topical lidocaine to gargle prior to EGD	2	1
+NCT02058979	BOLUS INFUSION	Active Comparator	Bolus infusion of antibiotics	3	2
+NCT02058979	CONTINUOUS INFUSION	Experimental	Continuous infusion of antibiotics by way of infusion pump	4	3
+NCT01190228	Group 1: JE-CV Vaccine	Experimental	Participants previously vaccinated with JE-CV vaccine, will receive JE-CV vaccine	5	4
+
+Clinical Results
+
+Data contains the results of trials that were catalogued by the NIH. Data contains 174,644 rows as well as 10 features. Features include: NCT Number, Type, Title, Description, Time Frame, Safety Issue, Posting Date, Results Population, Serial ID, and Enigma Serial ID
+
+https://public.enigma.com/datasets/nih-clinical-trials-clinical-results/2824ac01-e507-401a-b86e-47552f1ebe52
+
+NCT01281644	Primary	Difference in Disease Severity Scores	The primary outcome measure was the difference in disease severity total score, combining redness and roughness/bumpiness scales, between the treated site and the control site, as rated by the blinded dermatologists at 12 weeks post-initial visit. These scales were not validated, as no relevant validated scale was available. However, raters were trained and calibrated on the use of the scale, and prior to review of study images, were asked to rate archival skin images on the same 4-point qualitative subscales used in the study. Each scale ranged from 0 to 3, with 0 being none and 3 being severe. The total score summed the redness and roughness/bumpiness scale scores for a range of 0 (none/better outcome) to 6 (severe/worse outcome).	12 weeks
+NCT01281644	Secondary	Patient Self-rated Severity	This outcome measure was the difference in disease severity total score, combining redness and roughness/bumpiness scales, between the treated site and the control site, as rated by the patient at 12 weeks post-initial visit. These scales were not validated, as no relevant validated scale was available. Each scale ranged from 0 to 3, with 0 being none and 3 being severe. The total score summed the redness and roughness/bumpiness scale scores for a range of 0 (none/better outcome) to 6 (severe/worse outcome).	12 weeks
+NCT00818662	Primary	Change From Baseline at 18 Months in the Alzheimer´s Disease Assessment Scale- Cognitive Subscale (ADAS-Cog)	The ADAS-Cog is a validated psychometric instrument that evaluates memory (word recall, word recognition), attention, reasoning (following commands), language (naming, comprehension), orientation, ideational praxis (placing letter in envelope) and constructional praxis (copying geometric designs). This test was administered by experienced raters certified by Alzheimer’s Disease Cooperative Study (ADCS) at each site.
+Scores on the ADAS-Cog range from 0-70 with higher scores indicating greater impairment; hence increases from baseline reflect potential cognitive deterioration.	Baseline & 18 months
+NCT00818662	Primary	Change From Baseline at 18 Months in Alzheimer´s Disease Cooperative Study-Activities of Daily Living (ADCS-ADL)	The ADCS-ADL scale is a validated tool to assess instrumental and basic activities of daily living based on a 23 item structured interview of the caregiver or qualified study partner.
+Scores on the ADCS-ADL range from 0-78 with lower scores indicating greater impairment; hence decreases from baseline reflect potential functional deterioration.	Baseline & 18 Months
+NCT00818662	Secondary	Change From Baseline at 9 Months in the Alzheimer´s Disease Assessment Scale- Cognitive Subscale (ADAS-Cog)	The ADAS-Cog is a validated psychometric instrument that evaluates memory (word recall, word recognition), attention, reasoning (following commands), language (naming, comprehension), orientation, ideational praxis (placing letter in envelope) and constructional praxis (copying geometric designs). This test was administered by experienced raters certified by Alzheimer's Disease Cooperative Study (ADCS) at each site.
+Scores on the ADAS-Cog range from 0-70 with higher scores indicating greater impairment; hence increases from baseline reflect potential cognitive deterioration.	Baseline & 9 months
+
+Clinical Studies Main 
+
+Data contains the main table for clinical trials that were catalogued by the NIH. Data contains 234,723 rows as well as 44 features. Features include: Rank, NCT Number, Org Study ID, Secondary ID, NCT Alias, Official Title, Brief Summary, Overall Status, Enrollment, Enrollment Type, Start Date, Completion Date, Completion Date Type, Target Duration, Eligibility Study Population, Eligibility Sampling Method, Eligibility Criteria, Eligibility Gender, Eligibility Minimum Age, Eligibility Maximum Age, Eligibility Healthy Volunteers, Condition, Number of Arms, Number of Groups, Phase, Study Type, Study Design, First Received Date, First Received Results Date, Last Changed Date, Verification Date, Primary Completion Date, URL, Acronym, Lead Sponsor Agency, Lead Sponsor Agency Class, Overall Official First Name, Overall Official Middle Name, Overall Official Name, Overall Official Degrees, Overall Official Role, Overall Official Affiliation, Serial ID, and Enigma Serial ID
+
+https://public.enigma.com/datasets/nih-clinical-trials-clinical-studies-main/4a2e7cdb-d6ee-4b8a-91fa-4ba060d8d47e
+
+189383	NCT00543712	APM4171g		
+31009	NCT02620501	BrookeAMC		
+74059	NCT02058979	17266		
+140420	NCT01190228	JEC15	UTN: U1111-1113-3629	
+183599	NCT00621036	CDR0000587504	SCCC-102007-035SCCC-02F07	
+
+Collaborators 
+
+Data contains the names of collaborators that were involved in the clinical trials. The collaborators are the organizations overseeing the study. Data contains 131,847 rows as well as 5 features. Features include: NCT Number, Collaborator Agency, Collaborator Agency Class, Serial ID, and Enigma Serial ID
+
+https://public.enigma.com/datasets/nih-clinical-trials-collaborators/1a45ac6b-9008-42dd-b2d6-14e8100f5ad2
+
+NCT02058979	The University of Queensland	Other	1
+NCT01535677	Bristol-Myers Squibb	Industry	2
+NCT02955888	ProMetic BioSciences Inc.	Industry	3
+NCT02049801	National Cancer Institute (NCI)	NIH	4
+NCT00593853	Sanofi	Industry	5
+
+Contacts 
+
+Data contains the contacts for the clinical trials. Data includes 154,177 rows and 10 features. Features include: NCT Number, First Name, Middle Name, Last Name, Degrees, Phone, Phone Extension, Email, Serial ID, and Enigma Serial ID
+
+https://public.enigma.com/datasets/nih-clinical-trials-contacts/2e8e2d0a-d81c-4626-b935-1540792b98a4
+
+NCT02620501			Adam M Tritsch, MD			
+NCT01756755			Che-Hsiung Wu, MD		886-9-70351817	
+NCT01756755			Yu-Chang Yeh, M.D., Ph.D.		886-9-10513711	
+NCT01756755			Chih-Chin Kao, MD		886-9-37857150	
+NCT02775851			Jose Lutzky		305-674-2625	
+
+Interventions
+
+Data contains a list of intervention details. An intervention is a process or action that is the focus of a clinical study, which can include giving participants drugs, medical devices, procedures, vaccines, and other products that are investigational or already available. Data includes 408,439 rows and 8 features. Features include: NCT Number, Intervention Type, Intervention Name, Arm Group Label, Description, Other Name, Serial ID, Enigma Serial ID
+
+https://public.enigma.com/datasets/nih-clinical-trials-interventions/7afd9c14-9746-4a68-9361-cf07c5818380 
+
+NCT00543712	Drug	PRO95780		Intravenous repeating dose		1
+NCT02620501	Drug	Lidocaine	Experimental	topical lidocaine		2
+NCT02620501	Drug	Placebo	Placebo	0.45% Normal Saline		3
+NCT02058979	Drug	BOLUS INFUSION (Ancef)	BOLUS INFUSION	Bolus Infusion of antibiotics	ANCEF Bolus Infusion of antibiotics	4
+NCT02058979	Drug	CONTINUOUS INFUSION (Ancef)	CONTINUOUS INFUSION	Continuous Infusion of ANCEF with infusion pump	Continuous Infusion of ANCEF with infusion pump	5
+
+Location Countries
+
+Data contains a list of countries that conduct clinical trials with multiple locations specified. Data contains 207,909 rows with 4 features. Features include: NCT Number, Country, Serial ID, and Enigma Serial ID
+
+https://public.enigma.com/datasets/nih-clinical-trials-location-countries/844bba26-f4a4-4462-88a6-c1a656b67f34
+
+NCT00543712	Australia, United States	1	0
+NCT02620501	United States	2	1
+NCT02058979	United States	3	2
+NCT01190228	Philippines	4	3
+NCT00621036	United States	5	4
+
+Locations 
+
+Data contains the locations for NIH  clinical trials. Containing 1,757,180 rows and 8 features. Features include: NCT Number, Facility Name, Facility City, Facility State, Facility ZIP, Facility Country, Serial ID, and Enigma Serial ID
+
+https://public.enigma.com/datasets/nih-clinical-trials-locations/e91b3bc0-2c4d-4970-92de-1df414403ccc
+
+NCT00543712	Sarcoma Oncology Center	Santa Monica	California	90403	United States	1
+NCT00543712	Dana Farber Cancer Institute	Boston	Massachusetts	02115	United States	2
+NCT00543712	MD Anderson Cancer Center	Houston	Texas	77030	United States	3
+NCT00543712	Peter MacCallum Cancer Centre	Melbourne		3002	Australia	4
+NCT02620501	Brooke Army Medical Center	Ft. Sam Houston	Texas	78219	United States	5
+
+Other Outcomes
+
+Data contains other outcomes for NIH clinical trials. Containing 41,711 rows and 7 features. Features include: NCT Number, Outcome Measure, Outcome Time Frame, Outcome Safety Issue, Outcome Description, Serial ID, and Enigma Serial ID
+
+https://public.enigma.com/datasets/nih-clinical-trials-other-outcomes/55b4edfd-7acd-4980-8a68-9cc2fa5a6eff
+
+NCT02955888	Changes from baseline in fibrotic and inflammatory biomarkers in blood (Combined Main Study and Extension Study Participation)	Up to 1 Year	No		1	0
+NCT02955888	Changes from baseline in fibrotic and inflammatory biomarkers in urine (Combined Main Study and Extension Study Participation)	Up to1 Year	No		2	1
+NCT01756755	Number of participates die within 28 days	28 days	No		3	2
+NCT02775851	Change in CD8 expression (Cohort A)	Baseline up to week 9	No	Will examine whether change in T-cell infiltration following treatment is higher in the DM patients who respond. The change in CD8 expression will be computed and compared to the change between responders and non-responders using a two-sample t-test.	4	3
+NCT02775851	Change in PD-L1 expression (Cohort A)	Baseline up to week 9	No	Will examine adaptive immune resistance by first evaluating whether PD-L1 expression is increased at week 4 and week 9 as compared to baseline using paired t-tests and controlling the type I error at the two-sided alpha=0.05 level. The change in expression will be computed and then compared to the change between responders and non-responders using a two-sample t-test.	5	4
+
+Primary Outcomes 
+
+Data contains the primary outcomes for the NIH clinical trials, which can be either primary, secondary, or other. Containing 336,221 rows and 7 features. Features include: NCT Number, Outcome Measure, Outcome Time Frame, Outcome Safety Issue, Outcome Description, Serial ID, and Enigma Serial ID
+
+https://public.enigma.com/datasets/nih-clinical-trials-primary-outcomes/f13c1a0e-f240-481e-bdb3-75c527b597d1
+
+NCT00543712	Adverse events				1
+NCT00543712	Change in vital signs before and after PRO95780 infusions; clinical laboratory evaluations				2
+NCT00543712	Objective response				3
+NCT02620501	Amount of sedation used	60 minutes	No	We will record the amount of sedation used during the procedure	4
+NCT02058979	Plasma Concentration of Antibiotics	1 Day	No	Plasma concentration of antibiotics during surgery	5
+
+References 
+
+Data contains a list of references for NIH clinical trials. Containing 223,312 rows and 5 features. Features include: NCT Number, Citation, PMID, Serial ID, and Enigma Serial ID
+
+https://public.enigma.com/datasets/nih-clinical-trials-references/100b56ba-a653-40bb-a0f8-2236c03ee2bf
+
+NCT02620501	Davis DE, Jones MP, Kubik CM. Topical pharyngeal anesthesia does not improve upper gastrointestinal endoscopy in conscious sedated patients. Am J Gastroenterol. 1999 Jul;94(7):1853-6.	10406247	1	0
+NCT02058979	Suffoletta TJ, Jennings HR, Oh JJ, Stephens D, Poe KL. Continuous versus intermittent infusion of prophylactic cefoxitin after colorectal surgery: a pilot study. Pharmacotherapy. 2008 Sep;28(9):1133-9. doi: 10.1592/phco.28.9.1133.	18752384	2	1
+NCT02058979	Toma O, Suntrup P, Stefanescu A, London A, Mutch M, Kharasch E. Pharmacokinetics and tissue penetration of cefoxitin in obesity: implications for risk of surgical site infection. Anesth Analg. 2011 Oct;113(4):730-7. doi: 10.1213/ANE.0b013e31821fff74.	21642605	3	2
+NCT02058979	Isla A, Trocóniz IF, de Tejada IL, Vázquez S, Canut A, López JM, Solinís MÁ, Rodríguez Gascón A. Population pharmacokinetics of prophylactic cefoxitin in patients undergoing colorectal surgery. Eur J Clin Pharmacol. 2012 May;68(5):735-45. doi: 10.1007/s00228-011-1206-1.	22246211	4	3
+NCT02058979	Bratzler DW, Hunt DR. The surgical infection prevention and surgical care improvement projects: national initiatives to improve outcomes for patients having surgery. Clin Infect Dis. 2006 Aug 1;43(3):322-30.	16804848	5	4
+
+Removed Trial Location Countries
+
+Data contains a list of countries that have been removed form the clinical trial country list. Containing 9,160 rows and 4 features. Features include: NCT Number, Country, Serial ID, and Enigma Serial ID
+
+https://public.enigma.com/datasets/nih-clinical-trials-removed-trial-location-countries/ba894d9c-dd0b-4a37-8088-f417033bf6c4
+
+NCT01371708	Mexico, Puerto Rico	1	0
+NCT00827515	Singapore	2	1
+NCT00411450	United States	3	2
+NCT00989794	Hungary	4	3
+NCT00827619	France, Spain	5	4
+
+Responsible Parties
+
+Data contains a list of responsible parties associated with clinical trials. Containing 214,663 rows and 9 features. Features include NCT Number, Name Title, Organization, Type, Investigator Affiliation, Investigator Full Name, Investigator Title, Serial ID, and Enigma Serial ID
+
+https://public.enigma.com/datasets/nih-clinical-trials-responsible-parties/2c3e2097-b36c-4fbb-892d-2b5b404a32fc
+
+NCT00543712			Sponsor				1
+NCT02620501			Principal Investigator	Brooke Army Medical Center	Adam Tritsch	Gastroenterology Fellow	2
+NCT02058979			Principal Investigator	University of Virginia	Bhiken I. Naik, MD	Assistant Professor, Anesthesiology	3
+NCT01190228			Sponsor				4
+NCT01535677			Sponsor				5
+
+Results Reference 
+
+Data contains citations to publications related to the results of the trail, as catalogued by the NIH. Containing 43,901 and 5 features. Features include NCT Number, Citation, PMID, Serial ID, and Enigma Serial ID
+
+https://public.enigma.com/datasets/nih-clinical-trials-results-reference/daff2e61-00cc-4c99-bf49-88046820f9af
+
+NCT01535677	Chang M, Liu X, Cui D, Liang D, LaCreta F, Griffen SC, Lubin S, Quamina-Edghill D, Boulton DW. Bioequivalence, Food Effect, and Steady-State Assessment of Dapagliflozin/Metformin Extended-release Fixed-dose Combination Tablets Relative to Single-component Dapagliflozin and Metformin Extended-release Tablets in Healthy Subjects. Clin Ther. 2015 Jul 1;37(7):1517-28. doi: 10.1016/j.clinthera.2015.05.004.	26048185	1	0
+NCT00593853	Richard PO, Fleshner NE, Bhatt JR, Hersey KM, Chahin R, Alibhai SM. Phase II, randomised, double-blind, placebo-controlled trial of methylphenidate for reduction of fatigue levels in patients with prostate cancer receiving LHRH-agonist therapy. BJU Int. 2015 Nov;116(5):744-52. doi: 10.1111/bju.12755.	24684534	2	1
+NCT00104689	Viret F, Bugat R, Ducreux M, et al.: XELOX regimen in elderly patients with metastatic colorectal cancer (MCRC), a FNCLCC French Collaborative Group GERICO 02 phase II study. [Abstract] J Clin Oncol 25 (Suppl 18): A-19513, 708s, 2007.		3	2
+NCT00114543	Morris BH, Oh W, Tyson JE, Stevenson DK, Phelps DL, O'Shea TM, McDavid GE, Perritt RL, Van Meurs KP, Vohr BR, Grisby C, Yao Q, Pedroza C, Das A, Poole WK, Carlo WA, Duara S, Laptook AR, Salhab WA, Shankaran S, Poindexter BB, Fanaroff AA, Walsh MC, Rasmussen MR, Stoll BJ, Cotten CM, Donovan EF, Ehrenkranz RA, Guillet R, Higgins RD; NICHD Neonatal Research Network.. Aggressive vs. conservative phototherapy for infants with extremely low birth weight. N Engl J Med. 2008 Oct 30;359(18):1885-96. doi: 10.1056/NEJMoa0803024.	18971491	4	3
+NCT00114543	Ahlfors CE, Vreman HJ, Wong RJ, Bender GJ, Oh W, Morris BH, Stevenson DK; Phototherapy Subcommittee.; National Institute of Child Health and Development (NICHD) Neonatal Research Network.. Effects of sample dilution, peroxidase concentration, and chloride ion on the measurement of unbound bilirubin in premature newborns. Clin Biochem. 2007 Feb;40(3-4):261-7. Erratum in: Clin Biochem. 2009 Apr;42(6):547.	17069786	5	4
+
+Secondary Outcomes
+
+Data contains secondary outcomes for clinical trials, which is an outcome that is not as important as the primary outcome, but is still of interest. Containing 693,741 rows and 7 features. Features include: NCT Number, Measure, Time Frame, Safety Issue, Description, Serial ID, and Enigma Serial ID. 
+
+https://public.enigma.com/datasets/nih-clinical-trials-secondary-outcomes/0517a13b-a036-494d-92fe-d8d6b1619add
+
+NCT00543712	Duration of objective response				1	0
+NCT00543712	Progression-free survival				2	1
+NCT00543712	Overall survival				3	2
+NCT00543712	Pharmacokinetic parameters				4	3
+NCT02620501	Recovery time	120 minutes	No	We will record the amount of time it takes to recover following the procedure	5	4
+
+---- 
+
+AERO Data Lab - National Institute of Health, Clinical Trials 
+
+The NIH Clinical Trials dataset contains publicly and privately supported clinical studies on a wide range of diseases and conditions. The AERO Bird's Eye Dataset takes a collection of these NIH Clinical Trials and looks at big companies that are oversaturating research in certain areas instead of spreading out their research into areas that have not been researched much. 
+
+From this dataset, we want to analyze it and compare it to the NIH Clinical Trials to find some sort of correlation between factors that affect big companies from spreading out into underresearched diseases. 
+
+The dataset's most notable primary key is the nct_number feature, which is a perfect primary key to match with our primary dataset. 
+
+https://data.world/makeovermonday/2019w33/workspace/project-summary?agentid=makeovermonday&datasetid=2019w33
+
+NCT	Sponsor	Title	Summary	Start_Year	Start_Month	Phase	Enrollment	Status	Condition
+NCT00003305	Sanofi	A Phase II Trial of Aminopterin in Adults and Children With Refractory Acute Leukemia Grant Application Title: A Phase II Trial of Aminopterin in Acute Leukemia	RATIONALE: Drugs used in chemotherapy use different ways to stop cancer cells from dividing so they stop growing or die. PURPOSE: Phase II trial to study the effectiveness of aminopterin in treating patients who have refractory leukemia.	1997	7	Phase 2	75	Completed	Leukemia
+NCT00003821	Sanofi	Phase II Trial of Aminopterin in Patients With Persistent or Recurrent Endometrial Carcinoma	RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. PURPOSE: Phase II trial to study the effectiveness of aminopterin in treating patients who have refractory or recurrent endometrial cancer.	1998	1	Phase 2	0	Withdrawn	Endometrial Neoplasms
+NCT00004025	Sanofi	Phase I/II Trial of the Safety, Immunogenicity, and Efficacy of Autologous Dendritic Cells Transduced With Adenoviruses Encoding the MART-1 and gp100 Melanoma Antigens Administered With or Without Low Dose Recombinant Interleukin-2 (rIL-2) in Patients With Stage IV Melanoma	RATIONALE: Vaccines made from a person's white blood cells combined with melanoma antigens may make the body build an immune response to tumor cells. Interleukin-2 may stimulate a person's white blood cells to kill melanoma cells. Combining vaccine therapy with interleukin-2 may be an effective treatment for stage III or stage IV melanoma. PURPOSE: Phase I/II trial to study the effectiveness of vaccine therapy with or without interleukin-2 in treating patients who have stage III or stage IV melanoma that cannot be surgically removed.	1999	3	Phase 1/Phase 2	36	Unknown status	Melanoma
+NCT00005645	Sanofi	Phase II Trial of ILX295501 Administered Orally Once Weekly x 3 Repeated Every 6 Weeks in Patients With Stage III/IV Ovarian Cancer	RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. PURPOSE: Phase II trial to study the effectiveness of ILX-295501 in treating patients who have stage III or stage IV ovarian cancer that has not responded to previous therapy.	1999	5	Phase 2	0	Withdrawn	Ovarian Neoplasms
+NCT00008281	Sanofi	A Multicenter, Open-Label, Randomized, Three-Arm Study Of 5-Fluorouracil (5-FU) Plus Leucovorin (LV) Or Oxaliplatin Or A Combination Of (5-Fu) LV + Oxaliplatin As Second-Line Treatment Of Metastatic Colorectal Carcinoma	RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. It is not yet known which regimen of chemotherapy is more effective for metastatic colorectal cancer. PURPOSE: Phase III trial to compare the effectiveness of three chemotherapy regimens in treating patients who have metastatic colorectal cancer.	2000	10	Phase 3	0	Unknown status	Colorectal Neoplasms

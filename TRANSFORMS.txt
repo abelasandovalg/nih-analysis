@@ -1,0 +1,207 @@
+Duplicate Records 
+
+Arm Groups Table 
+
+	nct_number	arm_group_label	arm_group_type	count
+0	NCT01234129	zoledronic acid or not zoledronic acid	None	2
+1	NCT01230008	Radiotherapy in mediastinal lymphoma	None	2
+2	NCT03024333	Healthy subjects	None	2
+3	NCT00524212	IE confirmed IE rejected	None	2
+4	NCT03024450	HER2 positive AGC treated with H+CT	None	2
+5	NCT03024385	Mothers of healthy infants	None	2
+6	NCT03024294	Patients undergoing VATS lobectomy or segmente...	Other	2
+7	NCT03024489	Palbociclib-Cetiximab-IMRT	Experimental	2
+8	NCT03024437	Phase II - Cohort B	Experimental	2
+9	NCT03024411	Group 1	Experimental	2
+
+----
+
+Clinical Results Table 
+
+	nct_number	type	title	time_frame	count
+0	NCT00019604	Primary	Response	None	2
+1	NCT00324233	Secondary	Subjectively Measured Handling	None	2
+2	NCT00324233	Secondary	Subjectively Measured Insertion of the Catheter	None	2
+3	NCT00386776	Secondary	Completeness of Patients' Problem Lists	None	2
+4	NCT00386776	Secondary	Time Per Visit	None	2
+5	NCT00386776	Secondary	Number of Telephone Calls and E-mail Messages ...	None	2
+6	NCT00386776	Secondary	Number of Office Visits by Patients	None	2
+7	NCT00491374	Primary	The Change From Baseline in the Number of Apne...	None	2
+8	NCT00521339	Secondary	Time to Achieve PASI-75 During Treatment Phase	None	2
+9	NCT00521339	Secondary	Time to Clinically Relevant Response (Time to ...	None	2
+
+----
+
+Clinical Studies Main Table 
+
+nct_number	org_study_id	secondary_id	official_title	overall_status	enrollment	enrollment_type	count
+0	NCT00541632	010737	None	BacLite Rapid MRSA Clinical Performance	Terminated	NaN	None	3
+1	NCT01650493	CR-11-012	None	In-situ Evaluation of Anti-caries Technology	Completed	29.0	Actual	3
+2	NCT01064843	3M ESPE CR-09-020	None	Clinical Evaluation of the Mandibular Mini-Imp...	Completed	80.0	Actual	3
+3	NCT01369134	CR-10-014	None	Clinical Evaluation of 3M ESPE Adper Easy Bond...	Completed	40.0	Actual	3
+4	NCT00643461	CR-07-009	None	Clinical Evaluation of Three Dental Adhesive S...	Completed	46.0	Actual	3
+5	NCT01138592	05-003041	None	Pilot Study to Evaluate the Clinical Utility o...	Completed	150.0	Anticipated	3
+6	NCT01665820	Study EM-05-012530	None	Study EM-05-012530 Benefit of Auscultation Wit...	Completed	30.0	Actual	3
+7	NCT01464294	3M ESPE CR-10-019	None	Clinical Evaluation of Chairside CAD/CAM Nano-...	Terminated	120.0	Actual	3
+8	NCT01500187	CR-11-011	ORTHO2011-01	Fluoride Varnish Application for Treatment of ...	Completed	30.0	Anticipated	3
+9	NCT00731042	I2MS05-010877	None	A Two-week Crossover Evaluation of Two Hand An...	Completed	33.0	Actual	3
+
+----
+
+Collaborators Table 
+
+nct_number	collaborator_agency	collaborator_agency_class	count
+0	NCT01382446	3M	Industry	2
+1	NCT00386594	3M	Industry	2
+2	NCT02754791	3M	Industry	2
+3	NCT00408473	3M	Industry	2
+4	NCT02220101	3M	Industry	2
+5	NCT01649596	3M	Industry	2
+6	NCT00193908	3M	Industry	2
+7	NCT00175643	3M	Industry	2
+8	NCT00230373	3M	Industry	2
+9	NCT02030002	3M	Industry	2
+
+----
+
+Contacts Table
+
+nct_number	last_name	phone	phone_ext	email	count
+0	NCT00001154	For more information at the NIH Clinical Cente...	800-411-1222	TTY8664111010	prpl@mail.cc.nih.gov	2
+1	NCT00001159	For more information at the NIH Clinical Cente...	800-411-1222	TTY8664111010	prpl@mail.cc.nih.gov	2
+2	NCT00001160	For more information at the NIH Clinical Cente...	800-411-1222	TTY8664111010	prpl@mail.cc.nih.gov	2
+3	NCT00001162	For more information at the NIH Clinical Cente...	800-411-1222	TTY8664111010	prpl@mail.cc.nih.gov	2
+4	NCT00001163	For more information at the NIH Clinical Cente...	(888) NCI-1937	None	None	2
+5	NCT00001168	For more information at the NIH Clinical Cente...	800-411-1222	TTY8664111010	prpl@mail.cc.nih.gov	2
+6	NCT00001174	For more information at the NIH Clinical Cente...	800-411-1222	TTY8664111010	prpl@mail.cc.nih.gov	2
+7	NCT00001177	For more information at the NIH Clinical Cente...	800-411-1222	TTY8664111010	prpl@mail.cc.nih.gov	2
+8	NCT00001183	For more information at the NIH Clinical Cente...	800-411-1222	TTY8664111010	prpl@mail.cc.nih.gov	2
+9	NCT00001184	For more information at the NIH Clinical Cente...	800-411-1222	TTY8664111010	prpl@mail.cc.nih.gov	2
+
+----
+
+Eligibility Table 
+
+	nct_number	eligibility_study_pop	eligibility_sampling_method	eligibility_criteria	eligibility_gender	count
+0	NCT01988025	None	None	None	None	3
+1	NCT00047957	None	None	\n INCLUSION CRITERIA:\n\n Twent...	All	3
+2	NCT02250573	None	None	\n Inclusion Criteria:\n\n - ...	All	3
+3	NCT00245076	None	None	\n DISEASE CHARACTERISTICS:\n\n ...	All	3
+4	NCT01168609	\n Between December 2007 and March 2009...	Non-Probability Sample	\n Inclusion Criteria:\n\n - ...	All	3
+5	NCT01323842	\n ED patients with suspected renal col...	Non-Probability Sample	\n Inclusion Criteria:\n\n - ...	All	3
+6	NCT02549313	\n Patient with brain lesion\n	Non-Probability Sample	\n Inclusion Criteria:\n\n - ...	All	3
+7	NCT00543998	\n primary care clinic,\n	Non-Probability Sample	\n Inclusion Criteria:\n\n - ...	All	3
+8	NCT00721708	None	None	\n Inclusion Criteria:\n\n - ...	Female	3
+9	NCT02698878	None	None	\n Inclusion Criteria:\n\n - ...	Male	3
+
+----
+
+Interventions Table 
+
+nct_number	intervention_type	intervention_name	arm_group_label	count
+0	NCT01056822	Drug	1	1	2
+1	NCT01056822	Drug	2	2	2
+2	NCT01525511	Drug	A	Group A	2
+3	NCT01026116	Drug	A	None	2
+4	NCT01218932	Drug	A	A	2
+5	NCT01199627	Drug	A	A	2
+6	NCT01416363	Drug	A	Firategrast immediate release tablet	2
+7	NCT00728715	Drug	A	A	2
+8	NCT01424462	Drug	A	Firategrast IR	2
+9	NCT01267071	Drug	A	A, B	2
+
+----
+
+Locations Table 
+
+	nct_number	facility_name	facility_city	facility_state	facility_zip	facility_country	count
+0	NCT02515357	Harokopio University	Kallithea	Attiki	17671	Greece	2
+1	NCT00974701	Prince of Wales Hospital, Hong Kong, China	Shating	N.t.	None	Hong Kong	2
+2	NCT02095314	Garuda Primary Health Center	Bandung	West Java	None	Indonesia	2
+3	NCT00891254	Hospital de La Serena	La Serena	Iv Region	IV REGION	Chile	2
+4	NCT00800358	Haemodialysis Unit, Serdang Hospital	Serdang	Selangor	43000	Malaysia	2
+5	NCT02246296	Kilifi County Hospital	Kilifi	Coast	80108	Kenya	2
+6	NCT02097654	University College Cork	Cork	Munster	2	Ireland	2
+7	NCT01594931	Bethesday Hospital	Tomohon	North Sulawesi	None	Indonesia	2
+8	NCT01770210	General State Hospital	Polygyros	Chalkidiki	None	Greece	2
+9	NCT02036034	University Malaya Medical Center	Kuala Lumpur	Wilayah Persekutuan	59100	Malaysia	2
+
+----
+
+Responsible Parties 
+
+	nct_number	name_title	organization	type	investigator_affiliation	investigator_full_name	investigator_title	count
+0	NCT00633490	Jin Li/Dr	Fudan University cancer hospital	None	None	None	None	2
+1	NCT00115999	Brian Kersten, PhD	Nuvelo, Inc.	None	None	None	None	2
+2	NCT01129856	Stephen From / President and Chief Executive O...	Eyegate Pharmaceuticals, Inc.	None	None	None	None	2
+3	NCT00914368	Lars Wallentin, MD, PhD. Professor Cardiology	UCR, Uppsala University	None	None	None	None	2
+4	NCT00707824	Assistant Professor Orawan Pongraweewan	Mahidol University	None	None	None	None	2
+5	NCT00465907	Dr Alex Chang / Medical Director	Johns Hopkins Singapore International Medical ...	None	None	None	None	2
+6	NCT00623532	Isabelle Bourdel-Marchasson/ Professor (MD-PhD)	Pole of Gerontology-CHU of Bordeaux/ CNRS 5536...	None	None	None	None	2
+7	NCT00983931	Vice President, Branded Products and Medical A...	Mutual Pharmaceutical Company, Inc.	None	None	None	None	2
+8	NCT00350454	Prof. A. Schömig	Deutsches Herzzentrum Munich	None	None	None	None	2
+9	NCT01065688	Second Department of Surgery	Wakayama Medical University	None	None	None	None	2
+
+----
+
+Primary Outcomes Table 
+
+nct_number	measure	time_frame	safety_issue	description	count
+0	NCT00202488	Difference in the presence of genes related to...	None	None	None	2
+1	NCT00252941	CT at 1 month post-brachytherapy	None	None	None	2
+2	NCT00000328	Addiction Severity Index (ASI) Composite Score...	None	None	None	2
+3	NCT00234806	Evaluation of the impact of telehealth on util...	None	None	None	2
+4	NCT00472355	Effects on parkinsonism measured with finger a...	None	None	None	2
+5	NCT01122654	Body weight measured on calibrated infant scal...	None	None	None	2
+6	NCT00015223	Psychosocial counseling sessions	None	None	None	2
+7	NCT00000321	AIDS medical care engagement	None	None	None	2
+8	NCT00248404	Safety/tolerability of NB1011 infusions	None	None	None	2
+9	NCT00166816	Dose-concentration relationship of sirolimus	None	None	None	2
+
+----
+
+Secondary Outcomes Table 
+
+	nct_number	measure	time_frame	safety_issue	description	count
+0	NCT01644097	Progression free survival	Up to 2 years	False	None	2
+1	NCT01622868	Overall CNS complete response	Up to 2 years	False	None	2
+2	NCT02166957	Number of endoscopic sessions	Up to 2 years	False	None	2
+3	NCT02508077	Impact of time since last anti-EGFR exposure o...	Up to 2 years	False	None	2
+4	NCT00275093	Antitumor efficacy	Up to 30 days	False	None	2
+5	NCT01001754	Serum drug concentration profile	Up to week 48	False	None	2
+6	NCT00334139	Pain	every 30 days	False	None	2
+7	NCT00152867	Differences in nausea and vomiting by treatmen...	post period 2	False	None	2
+8	NCT00803231	Length of hospital stay	28 and 31 days	False	None	2
+9	NCT02961634	Number of patients reporting reduction in disc...	45 and 90 days	False	None	2
+
+----
+
+Other Outcomes Table 
+
+	nct_number	measure	time_frame	safety_issue	description	count
+0	NCT00000372	Change in Brief Psychotic Rating Scale from Ba...	Baseline, Week 8	False	None	2
+1	NCT00000372	Change in Global Assessment Scale from Baselin...	Baseline, Week 8	False	None	2
+2	NCT00000572	Hospital costs	Hostpital stay	False	$US	2
+3	NCT00000572	Bleeding/Hemorrhage	Hospital stay	True	Bleeding in ECCO2R subjects exceeded that in c...	2
+4	NCT00003193	Survival	5 years	False	Percentage of patients alive at 5 years as wel...	2
+5	NCT00003224	Number of Participants With a Proliferative Re...	during vaccination	False	Proliferative response measured in participant...	2
+6	NCT00004195	Specific Aims	Duriation of trial up to 30 days after first dose	True	Determine the enzymatic activity of DPD in PBM...	2
+7	NCT00004418	very long chain fatty acids (VLCFA)	every month during first year, then every 1-3 ...	False	None	2
+8	NCT00005275	Prevalent cardiovascular events and stroke	1998-2011	False	None	2
+9	NCT00005349	coronary artery disease risk factors	1991-2005	False	None	2
+
+----
+
+AERO Birds Eye Table 
+
+	nct_number	count
+0	NCT00142558	2
+1	NCT00798369	2
+2	NCT00819585	2
+3	NCT00927810	2
+4	NCT01029652	2
+5	NCT01080131	2
+6	NCT02187029	2
+7	NCT00141401	2
+8	NCT00150423	2
+9	NCT00156078	2
